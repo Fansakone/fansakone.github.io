@@ -72,7 +72,7 @@ body {
     margin-right: 20px;
     max-width: 400px;
     position: sticky;
-    display: left;
+    left: 0;
   }
   
   .right-column {
