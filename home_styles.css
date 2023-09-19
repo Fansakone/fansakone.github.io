@@ -76,8 +76,16 @@ body {
   }
 
   /*Drop Down button in the research page*/
+.ContentDropDown{
+    Background-colo: #eeeeee;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #bbbbbb;
+}
 .summary{
     border-top: 2px solid blue;
+    width: 50%;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    Background-colo: #eeeeee;
 }
   .right-column {
     flex: 2;
