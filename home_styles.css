@@ -108,6 +108,7 @@ body {
     .sticky-header {
       flex-direction: column;
       align-items: center;
+        max-width: 100%;
     }
   
     .logo {
