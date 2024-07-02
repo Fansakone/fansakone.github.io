@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="home_styles.css">
     <link rel="icon" href="/files/favicon.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .abstract {
+            display: none;
+            margin-top: 10px;
+        }
+        .button {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,9 +50,16 @@
                 </details> -->
                  <!--Fin du Code pour afficher un bouton dynamique contenant le résumé d’un article-->
                 <p>Macroeconomic modeling, applied econometrics especially state-of-the-art causal inference techniques including synthetic control, advanced event studies, and machine learning!</p>
+                
                 <h2>Working Papers</h2>
                 <ul>
-                    <li>Balanced Budget Rule and Economic Growth</li>
+                    <li>Balanced Budget Rule and Economic Growth
+                        <span class="button" onclick="toggleAbstract('abstract1')">Abstract</span>
+                        <div id="abstract1" class="abstract">
+                            <p>This paper explores the impact of a Balanced Budget Rule on economic growth...</p>
+                        </div>
+                    </li>
+                    
                     <li>Trade, Shocks transmission, and Monetary Policy, with Régis Kouassi</li>>
                     <li>WAEMU facing AfCFTA: implications for Trade and Monetary Policy, with Régis Kouassi</li>
                 </ul>
